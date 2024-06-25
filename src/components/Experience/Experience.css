@@ -1,0 +1,162 @@
+#experience {
+  margin-top: 4rem;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.experience-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+}
+.experience-card h3{
+  
+  text-decoration:underline;
+  font-weight: 600;
+}
+.experience-card {
+  background: var(--color-bg-variant);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  transition: background 0.3s;
+}
+
+.experience-card:hover {
+  background: var(--color-bg-hover);
+  border: 2px solid var(--color-primary);
+ 
+}
+
+
+.experience-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.company-logo {
+  max-width: 80px;
+  height: auto;
+}
+
+.experience-list {
+  margin-top: 1rem;
+}
+
+.experience-list li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.list-icon {
+  color: var(--color-primary);
+}
+
+.experience-list p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.cert-button {
+  background: var(--color-primary);
+  color: #000;
+  border: none;
+  padding: 0.3rem 0.6rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  transition: background 0.3s;
+  font-size: 0.8rem;
+}
+
+.cert-button:hover {
+  
+}
+
+/* Modal Styles */
+.Modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+  width: 40%;
+  max-height: 90%;
+  overflow: auto;
+}
+
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.close-modal {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: var(--color-primary);
+}
+
+.certificate-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  max-width: 90%;
+  margin: auto;
+}
+
+.certificate-img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 0.5rem;
+}
+
+.modal-navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.nav-button {
+  background: var(--color-primary);
+  color: #000;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+@media (max-width: 768px) {
+  
+  .experience-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .experience-card {
+    padding: 1rem;
+  }
+  .Modal{
+    width: 80%;
+  }
+
+  .company-logo {
+    max-width: 60px;
+  }
+}
