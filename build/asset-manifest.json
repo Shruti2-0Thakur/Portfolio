@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9e982c2d.css",
+    "main.js": "/static/js/main.0a9595c2.js",
+    "static/media/portfolio.png": "/static/media/portfolio.2d9c3e0f01c64d0496d9.png",
+    "static/media/B_Star.png": "/static/media/B_Star.0f6dfdb7fcba86bbba84.png",
+    "static/media/B_intern.png": "/static/media/B_intern.ad5d1aed2c247486f29b.png",
+    "static/media/pic1.png": "/static/media/pic1.ddc204372fc56f2daa42.png",
+    "static/media/Resume.pdf": "/static/media/Resume.9e35186e4cc27501915e.pdf",
+    "static/media/setup.png": "/static/media/setup.7243f411f92d4fbcaff3.png",
+    "static/media/Al_Ol.png": "/static/media/Al_Ol.e0d356dce1e75cc3ead0.png",
+    "static/media/about2.png": "/static/media/about2.df9ae89e711e41ddfa97.png",
+    "static/media/B_Ol.png": "/static/media/B_Ol.a70d2f7d88ba2ea69612.png",
+    "static/media/about3.png": "/static/media/about3.4508d88edcd3670ed0cd.png",
+    "static/media/M_app.png": "/static/media/M_app.c8fb92dfee5e0d7b14c4.png",
+    "static/media/demo.png": "/static/media/demo.7b9a81cb7fc905642bbd.png",
+    "static/media/M_intern.png": "/static/media/M_intern.0ec01adeef4b943ccccc.png",
+    "static/media/MuSocial_logo.png": "/static/media/MuSocial_logo.ed80d84690992b5e8d7c.png",
+    "static/media/Al_chemist.png": "/static/media/Al_chemist.aae7755f6c42b88b5ef9.png",
+    "index.html": "/index.html",
+    "main.9e982c2d.css.map": "/static/css/main.9e982c2d.css.map",
+    "main.0a9595c2.js.map": "/static/js/main.0a9595c2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9e982c2d.css",
+    "static/js/main.0a9595c2.js"
+  ]
+}
