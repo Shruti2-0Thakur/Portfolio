@@ -1,13 +1,13 @@
 import React from 'react';
-import { FaGithub, FaInstagram } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 
 const HeaderSocial = () => {
   return (
     <div className='header_social'>
-        <a href='' target='_blank'><FaLinkedin/></a>
-        <a href='' target='_blank'><FaGithub/></a>
-        <a href='' target='_blank'><FaInstagram/></a>
+        <a href='https://www.linkedin.com/in/shrutithakur20/' target='_blank'><FaLinkedin/></a>
+        <a href='https://github.com/Shruti2-0Thakur' target='_blank'><FaGithub/></a>
+        
     </div>
   )
 }

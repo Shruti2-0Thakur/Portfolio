@@ -1,13 +1,26 @@
-import React from 'react'
-import RESUME from '../../assets/Resume.pdf'
+import React, { useState } from 'react';
+import RESUME from '../../assets/Resume.pdf';
+import Modal from './Modal';
 
 const CTA = () => {
-  return (
-    <div className='cta'>
-        <a href={RESUME} download className='btn'>Download CV</a>
-        <a href='#contact' className='btn btn-primary'> Let`s Talk</a>
-    </div>
-  )
-}
+  const [showModal, setShowModal] = useState(false);
 
-export default CTA
+  const openModal = () => setShowModal(true);
+  const closeModal = () => setShowModal(false);
+
+  return (
+    <div className="cta">
+      <button onClick={openModal} className="btn">View Resume</button>
+      <a href="#contact" className="btn btn-primary">Let's Talk</a>
+      <Modal show={showModal} onClose={closeModal}>
+        <iframe
+          src={RESUME}
+          style={{ width: '100%', height: '80vh' }}
+          title="Resume"
+        />
+      </Modal>
+    </div>
+  );
+};
+
+export default CTA;

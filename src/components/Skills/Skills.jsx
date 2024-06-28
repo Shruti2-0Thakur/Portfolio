@@ -16,15 +16,7 @@ const Skills = () => {
               <IoIosCheckmarkCircle className='exp_icons'/>
               <div>
                 <h4>HTML</h4>
-                <small className='text-light'>Experienced</small>
-                </div>
-              </article>
-
-              <article className='exp_details'>
-              <IoIosCheckmarkCircle className='exp_icons'/>
-              <div>
-                <h4>HTML</h4>
-                <small className='text-light'>Experienced</small>
+                <small className='text-light'></small>
                 </div>
               </article>
 
@@ -32,7 +24,7 @@ const Skills = () => {
               <IoIosCheckmarkCircle className='exp_icons'/>
               <div>
                 <h4>CSS</h4>
-                <small className='text-light'>Experienced</small>
+                <small className='text-light'></small>
                 </div>
               </article>
 
@@ -40,7 +32,15 @@ const Skills = () => {
               <IoIosCheckmarkCircle className='exp_icons'/>
               <div>
                 <h4>JavaScript</h4>
-                <small className='text-light'>Experienced</small>
+                <small className='text-light'></small>
+                </div>
+              </article>
+
+              <article className='exp_details'>
+              <IoIosCheckmarkCircle className='exp_icons'/>
+              <div>
+                <h4>JQuery</h4>
+                <small className='text-light'></small>
                 </div>
               </article>
 
@@ -48,7 +48,7 @@ const Skills = () => {
               <IoIosCheckmarkCircle className='exp_icons'/>
               <div>
                 <h4>Bootstrap</h4>
-                <small className='text-light'>Experienced</small>
+                <small className='text-light'></small>
                 </div>
               </article>
 
@@ -56,7 +56,7 @@ const Skills = () => {
               <IoIosCheckmarkCircle className='exp_icons'/>
               <div>
                 <h4>React</h4>
-                <small className='text-light'>Experienced</small>
+                <small className='text-light'></small>
                 </div>
               </article>
 
@@ -69,8 +69,16 @@ const Skills = () => {
               <article className='exp_details'>
               <IoIosCheckmarkCircle className='exp_icons'/>
               <div>
-                <h4>Node JS</h4>
-                <small className='text-light'>Experienced</small>
+                <h4>Node.jS</h4>
+                <small className='text-light'></small>
+                </div>
+              </article>
+
+              <article className='exp_details'>
+              <IoIosCheckmarkCircle className='exp_icons'/>
+              <div>
+                <h4>Express.js</h4>
+                <small className='text-light'></small>
                 </div>
               </article>
 
@@ -78,15 +86,7 @@ const Skills = () => {
               <IoIosCheckmarkCircle className='exp_icons'/>
               <div>
                 <h4>MongoDB</h4>
-                <small className='text-light'>Experienced</small>
-                </div>
-              </article>
-
-              <article className='exp_details'>
-              <IoIosCheckmarkCircle className='exp_icons'/>
-              <div>
-                <h4>PHP</h4>
-                <small className='text-light'>Experienced</small>
+                <small className='text-light'></small>
                 </div>
               </article>
 
@@ -94,7 +94,7 @@ const Skills = () => {
               <IoIosCheckmarkCircle className='exp_icons'/>
               <div>
                 <h4>SQL</h4>
-                <small className='text-light'>Experienced</small>
+                <small className='text-light'></small>
                 </div>
               </article>
 
@@ -110,7 +110,7 @@ const Skills = () => {
               <IoIosCheckmarkCircle className='exp_icons'/>
               <div>
                 <h4>Java</h4>
-                <small className='text-light'>Experienced</small>
+                <small className='text-light'></small>
                 </div>
               </article>
 
@@ -118,7 +118,7 @@ const Skills = () => {
               <IoIosCheckmarkCircle className='exp_icons'/>
               <div>
                 <h4>C/C++ Language</h4>
-                <small className='text-light'>Experienced</small>
+                <small className='text-light'></small>
                 </div>
               </article>
               

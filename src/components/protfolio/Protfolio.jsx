@@ -1,6 +1,7 @@
 import React from 'react'
 import portfolioImage5 from '../../assets/demo.png'
 import portfolioImage4 from '../../assets/pic1.png'
+import portfolioImage1 from '../../assets/portfolio.png'
 import portfolioImage3 from '../../assets/setup.png'
 import './Protfolio.css'
 
@@ -34,31 +35,31 @@ const data = [
   },
   {
     id: 4,
-    image: portfolioImage3,
-    title: "cvbrtghyjkbnm,rtyhjklcvbnmrtyjkl",
-    details:"fgvhj",
+    image: portfolioImage1,
+    title: "Interactive Portfolio: API-Driven and Dynamic",
+    details:"I'm transforming my portfolio into a dynamic API-based project using React for frontend, Node.js for backend, and MongoDB for the database. This showcases my ability in full-stack development and proficiency in the MERN stack, creating modern, responsive, interactive web apps with efficient data management and seamless user experiences.",
     github: "https://github.com/Shruti2-0Thakur/landing_page/settings/pages",
     demo: "https://.com"
 
   },
-  {
-    id: 5,
-    image: portfolioImage4,
-    title: "cvbrtghyjkbnm,rtyhjklcvbnmrtyjkl",
-    details:"dfcgh",
-    github: "https://github.com/Shruti2-0Thakur/landing_page/settings/pages",
-    demo: "https://.com"
+  // {
+  //   id: 5,
+  //   image: portfolioImage4,
+  //   title: "cvbrtghyjkbnm,rtyhjklcvbnmrtyjkl",
+  //   details:"dfcgh",
+  //   github: "https://github.com/Shruti2-0Thakur/landing_page/settings/pages",
+  //   demo: "https://.com"
 
-  },
-  {
-    id: 6,
-    image: portfolioImage5,
-    title: "cvbrtghyjkbnm,rtyhjklcvbnmrtyjkl",
-    details:"fghj",
-    github: "https://github.com/Shruti2-0Thakur/landing_page/settings/pages",
-    demo: "https://.com"
+  // },
+  // {
+  //   id: 6,
+  //   image: portfolioImage5,
+  //   title: "cvbrtghyjkbnm,rtyhjklcvbnmrtyjkl",
+  //   details:"fghj",
+  //   github: "https://github.com/Shruti2-0Thakur/landing_page/settings/pages",
+  //   demo: "https://.com"
 
-  },
+  // },
 ]
 const Protfolio = () => {
   return (
@@ -77,8 +78,8 @@ const Protfolio = () => {
                   <h3>{title}</h3>
                   <p>{details}</p>
                   <div className='port-cta'>
-                  <a href={github} className='btn'>GitHub</a>
-                  <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
+                  <a href={github} className='btn btn-primary'>GitHub</a>
+                  {/* <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a> */}
                   </div>
               </article>
 

@@ -4,8 +4,15 @@ import Modal from 'react-modal';
 import './Experience.css';
 
 // Import certificate images
-import avatar1 from './avatar1.jpg';
-import avatar2 from './avatar2.jpg';
+import al_Ol from './Al_Ol.png';
+import Al_logo from './Al_chemist.png';
+import B_ol from './B_Ol.png';
+import B_star from './B_Star.png';
+import B_intern from './B_intern.png';
+import Bnsl from './Bnsl.png';
+import M_app from './M_app.png';
+import M_intern from './M_intern.png';
+import MuS from './MuSocial_logo.png';
 
 // Set the root element for the modal
 Modal.setAppElement('#root');
@@ -35,33 +42,34 @@ const Experience = () => {
     {
       role: 'Full Stack Web Developer Intern',
       company: 'Digital Alchemist Labs',
-      logo: avatar1,
+      logo: Al_logo,
       period: 'Jun 2024 - Aug 2024',
       details: [
         'Reduced website loading time by 50%, enhancing user experience and engagement, while improving the codebase, boosting team productivity by 20%, and project efficiency by 30%. Developed and tested new features, increasing overall site functionality and user satisfaction by 85%.',
       ],
-      certificates: [avatar1, avatar2],
+      certificates: [al_Ol],
     },
     {
       role: '.Net Developer Intern',
       company: 'Bharat National Solutions Limited',
-      logo: 'path/to/bns_logo.png',
+      logo: Bnsl,
       period: 'Feb 2024 - May 2024',
       details: [
         'Gained hands-on teamwork experience in .NET, C, and MySQL, achieving 100% proficiency. Acquired practical skills by mastering MySQL’s stored procedures and triggers, contributing to 100% website development. Developed websites with responsive design, user-friendly interfaces, and easy navigation, achieving 98% client satisfaction.',
       ],
-      certificates: [avatar1, avatar2],
+      certificates: [B_ol, B_star, B_intern],
     },
     {
       role: 'Web Developer Intern',
       company: 'Musocial Private Limited',
-      logo: 'path/to/musocial_logo.png',
+      logo: MuS,
       period: 'May 2023 - Aug 2023',
       details: [
         'Successfully used the MERN Stack to achieve 40% faster project delivery and 30% higher customer satisfaction. Engineered real-time REST API integration and deployment on hosting servers, demonstrating 90% proficiency in server management and API development.',
       ],
-      certificates: [avatar1, avatar2],
+      certificates: [M_intern, M_app],
     },
+    
   ];
 
   return (
@@ -77,7 +85,7 @@ const Experience = () => {
               <div>
                 <h3>{exp.role}</h3>
                 <span>
-                  {exp.company} | {exp.period}
+                  {exp.company} <br/> {exp.period}
                 </span>
               </div>
             </div>

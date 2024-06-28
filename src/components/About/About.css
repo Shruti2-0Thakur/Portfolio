@@ -1,4 +1,6 @@
-
+#about{
+    height: auto;
+}
 .about_container{
     display: grid;
     grid-template-columns: 35% 50%;
