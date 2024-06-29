@@ -2,7 +2,9 @@
 
 Welcome to my portfolio! This project showcases my skills in full-stack development, specifically using the MERN stack (MongoDB, Express.js, React.js, Node.js). 
 
-You can view the live project [here](https://portfolio-kh60.onrender.com/).
+## You can view the live project [here](https://portfolio-kh60.onrender.com/).
+
+## You can find the backend code, which consists of Node.js and MongoDB APIs, in this [repository](https://github.com/Shruti2-0Thakur/api_portfolio).
 
 ![Portfolio Screenshot](src/assets/portfolio.png)
 
