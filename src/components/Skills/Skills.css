@@ -1,4 +1,5 @@
 #skills{
+    
     height: auto;
 }
 .experience_container{
@@ -42,9 +43,7 @@
 
 
 @media screen and (max-width: 1024px) {
-    #experience{
-        height: 160vh;
-    }
+   
     .experience_container{
         grid-template-columns: 1fr;
     }
@@ -59,10 +58,7 @@
 
 }
 @media screen and (max-width: 600px) {
-    #experience{
-        height: 160vh;
-        margin-top: 30rem;
-    }
+    
     .experience_container{
         gap: 1rem;
     }

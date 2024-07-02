@@ -1,9 +1,9 @@
 #experience {
-  margin-top: 4rem;
+  
   width: 90%;
   margin-left: auto;
   margin-right: auto;
-  height: auto;
+  
 }
 
 .experience-cards {
@@ -149,9 +149,16 @@
   transition: background 0.3s;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 600px) {
+  #experience {
+      height: auto;
+      margin-top: 0;
+  }
+}
+
+@media (max-width: 600px) {
   #experience{
-    margin-top: 10rem;
+    
   }
   
   .experience-cards {
@@ -169,9 +176,4 @@
     max-width: 60px;
   }
 }
-@media (max-width:508px) {
 
-  #experience{
-    margin-top: 4rem;
-  }
-}

@@ -42,3 +42,8 @@ nav a.active{
     background-color: var(--color-bg);
     color: var(--color-white) ;
 }
+@media screen and (max-width: 600px) {
+    nav{
+        left: 24%;
+    }
+}
