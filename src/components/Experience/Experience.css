@@ -169,7 +169,9 @@
     padding: 1rem;
   }
   .Modal{
-    width: 80%;
+    top: 60%;
+    left:25% ;
+    width: 40%;
   }
 
   .company-logo {
