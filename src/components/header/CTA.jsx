@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import RESUME from '../../assets/Shruti_CV96';
+import RESUME from '../../assets/Shruti_CV96.pdf';
 import Modal from './Modal';
 
 const CTA = () => {
