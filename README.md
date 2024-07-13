@@ -2,7 +2,7 @@
 
 Welcome to my portfolio! This project showcases my skills in full-stack development, specifically using the MERN stack (MongoDB, Express.js, React.js, Node.js). 
 
-## You can view the live project [here](https://portfolio-kh60.onrender.com/).
+<!--- ## You can view the live project [here](https://portfolio-kh60.onrender.com/). -->
 
 ![Portfolio Screenshot](src/assets/portfolio.png)
 
